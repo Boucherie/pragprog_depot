@@ -3,17 +3,17 @@
 one:
   title: MyString
   description: MyText
-  image_url: lorem.jpeg
+  image_url: 'lorem.jpeg'
   price: 9.99
 
 two:
   title: MyString
   description: MyText
-  image_url: lorem.jpeg
+  image_url: 'lorem.jpeg'
   price: 9.99
 
 ruby: 
-   title: ​ Programming Ruby 1.9 ​ 
+   title: ​Programming Ruby 1.9
    description: Ruby is the fastest growing and most exciting dynamic ​language out there. If you need to get working programs delivered fast, you should add Ruby to your toolbox. ​ 
    price: ​ 49.50 ​ 
    image_url: ​ lorem.jpg ​ 

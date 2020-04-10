@@ -73,3 +73,4 @@ class ProductTest < ActiveSupport::TestCase
     assert_equal [I18n.translate('errors.messages.taken')],
                  product.errors[:title]
   end
+  end

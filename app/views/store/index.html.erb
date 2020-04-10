@@ -2,7 +2,12 @@
 <aside id="notice"></aside>
 <% end %>
 
+
 <h1>Your Pragmatic Catalog</h1>
+
+<% if @counter > 0 %>
+<h5><%= @count _message %></h5>
+<%end%>
 
 <ul class="catalog">
   <% cache @products do%>
@@ -16,6 +21,7 @@
           </p>
           <div class="price">
             <%= number_to_currency(product.price) %>
+            <%= button_to  "Add to Cart", line_items_path(product_id: product) %>
           </div>
         </li>
       <% end %>

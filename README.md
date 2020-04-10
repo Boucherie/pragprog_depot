@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# PRAGPROG bookstore project
 
-Things you may want to cover:
+This project goes through the Agile Web Development with Rails 6 books, as beta'd at RailsConf 2019 (Minneapolis), and fully released for publication January 2020. This project is partly review and partly to fill in potential gaps; you don't know what you dont know :).
 
-* Ruby version
+App is Rails 6.0.2.1, ruby -v 2.6.3.
 
-* System dependencies
+This app:
 
-* Configuration
+- [x] Creates a scaffolded catalog and store that caches product objects
 
-* Database creation
+- [x] Has a concurrently developed test suite
 
-* Database initialization
+- [x] Creates a cart, with functional add to cart button
 
-* How to run the test suite
+- [ ] Add AJAX and Action Cable functionality to the cart
 
-* Services (job queues, cache servers, search engines, etc.)
+- [ ] Create a checkout and payment form
 
-* Deployment instructions
+- [ ] Integrate mailers and mock payment processors for orders
+
 
 * ...
